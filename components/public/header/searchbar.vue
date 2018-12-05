@@ -125,7 +125,10 @@ export default {
       this.isFocus = true;
     },
     blur: function() {
-      this.isFocus = false;
+      let self = this;
+      setTimeout(function() {
+        self.isFocus = false;
+      }, 200);
     }
   }
 };
