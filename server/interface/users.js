@@ -148,3 +148,37 @@ router.post('/verify', async (ctx, next) => {
     msg: '验证码已发送，可能会有延时，有效期1分钟'
   }
 })
+
+
+router.get('/exit', async (ctx, next) => {
+  await ctx.logout()
+  if (!ctx.isAuthenticated()) {
+    ctx.body = {
+      code: 0
+    }
+  } else {
+    ctx.body = {
+      code: -1
+    }
+  }
+})
+
+router.get('/getUser', async (ctx) => {
+  if (ctx.isAuthenticated()) {
+    const {
+      username,
+      email
+    } = ctx.session.passport.user
+    ctx.body = {
+      user: username,
+      email
+    }
+  } else {
+    ctx.body = {
+      user: '',
+      email: ''
+    }
+  }
+})
+
+export default router
