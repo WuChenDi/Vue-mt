@@ -32,8 +32,9 @@ yarn run dev
 
 
 ## 项目效果图
-![](/screenshots/00-register.png)
-![](/screenshots/01-index.png)
+![](/screenshots/00-login.png)
+![](/screenshots/01-register.png)
+![](/screenshots/02-index.png)
 
 
 注：结合功能完善md
