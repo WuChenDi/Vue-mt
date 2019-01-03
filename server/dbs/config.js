@@ -16,6 +16,7 @@ export default {
       return '996194720@qq.com'
     },
     get pass() {
+      // 邮箱SMTP服务
       return ''
     },
     get code() {
@@ -28,5 +29,7 @@ export default {
         return new Date().getTime() + 60 * 60 * 1000
       }
     }
-  }
+  },
+  requestUrl: "http://cp-tools.cn",
+  sign: ""
 }
