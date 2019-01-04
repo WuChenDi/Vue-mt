@@ -1,8 +1,8 @@
 <template>
   <div class="page-changeCity">
     <el-row>
-      <el-col :span="24">1
-        <!-- <iSelect /> -->
+      <el-col :span="24">
+        <iSelect />
       </el-col>
     </el-row>
     <el-row>
@@ -19,7 +19,12 @@
 </template>
 
 <script>
-export default {};
+import iSelect from "@/components/changeCity/iselect.vue";
+export default {
+  components: {
+    iSelect
+  }
+};
 </script>
 
 <style>
