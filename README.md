@@ -36,5 +36,3 @@ yarn run dev
 ![](/screenshots/01-register.png)
 ![](/screenshots/02-index.png)
 
-
-注：结合功能完善md
