@@ -61,7 +61,6 @@ export default {
         city
       }
     });
-    console.log(count,areas,types)
     if (status === 200 && count > 0 && status2 === 200) {
       return {
         list: pois
