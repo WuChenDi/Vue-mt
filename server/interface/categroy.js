@@ -1,6 +1,6 @@
 import Router from 'koa-router';
 import axios from './utils/axios';
-import Province from '../dbs/models/province';
+// import Province from '../dbs/models/province';
 import Config from '../dbs/config';
 
 let router = new Router({
