@@ -3,7 +3,7 @@ import axios from './utils/axios';
 // import Province from '../dbs/models/province';
 // import City from '../dbs/models/city';
 // import Menu from '../dbs/models/menu';
-import Config from '../dbs/config';;
+import Config from '../dbs/config';
 
 let router = new Router({
   prefix: '/geo'

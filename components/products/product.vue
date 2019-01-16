@@ -18,10 +18,12 @@
       <span
         v-if="meta.rate>4"
         class="s-item-comment"
-      >很好</span><span
+      >很好</span>
+      <span
         v-else-if="meta.rate>3"
         class="s-item-comment"
-      >一般</span><span
+      >一般</span>
+      <span
         v-else
         class="s-item-comment"
       >很差</span>
