@@ -7,9 +7,9 @@
 ```
 cd vue-mt
 
-yarn install
+npm install 或 yarn(推荐)
 
-yarn run dev
+npm run dev
 
 ```
 
