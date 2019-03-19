@@ -5,6 +5,8 @@
 通过npm安装本地服务第三方依赖模块(需要已安装[Node.js](https://nodejs.org/ "nodejs"))
 #### 注意：由于涉及大量的 ES6/7 等新属性，node 需要 6.0 以上版本 
 ```
+git clone https://github.com/WuChenDi/Vue-mt.git
+
 cd vue-mt
 
 npm install 或 yarn(推荐)
